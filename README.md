@@ -12,7 +12,7 @@ This project delivers a UNIX-style shell interface on both server and client sid
 - Dynamic peer discovery (LIST / REFRESH)
 - Statistics tracking and custom info commands
 
-Built as CSE 489/589 Programming Assignment 1, it uses TCP sockets and select() for real-time, non-blocking communication.
+It uses TCP sockets and select() for real-time, non-blocking communication.
 
 ## 🎯 Why This Matters
 Recruiters and teams love engineers who:
@@ -43,7 +43,7 @@ This project showcases all of the above.
 ## 🔧 Quick Start
 ```bash
 # 1. Clone repository
-git clone https://github.com/VinayTrinadh/text-chat-app.git
+git clone https://github.com/VinayTrinadh7755/Text_Chat_Application_using_Socket_Programming.git
 cd text-chat-app
 
 # 2. Build binaries
@@ -112,7 +112,7 @@ All commands support detailed error handling for invalid syntax, duplicate state
 ## 📁 Project Structure
 
 ```
-text-chat-app/
+Text_Chat_Application_using_Socket_Programming/
 ├── include/               # Public headers (client.h, server.h, common.h)
 ├── src/
 │   ├── assignment1.c      # CLI entry point & argument parsing
@@ -143,7 +143,7 @@ LOGOUT
 EXIT
 ```
 
-All commands print [CMD : SUCCESS] or [CMD : ERROR] blocks and properly formatted content for automated grading.
+All commands print [CMD : SUCCESS] or [CMD : ERROR] blocks and properly formatted content.
 
 ## 🛠 Tech Stack
 
@@ -174,16 +174,12 @@ Feedback and suggestions are very welcome!
 
 Distributed under the GNU GPL v2. See LICENSE for more details.
 
-## 👥 Authors & Contact
-
-**Harshitha Ayenugula**  
-UBITName: hayenugu | UBID: 50591635  
-[GitHub](https://github.com/)
+## 👥 Authors & Contact Details
 
 **Vinay Trinadh Naraharisetty**  
 UBITName: vinaytri | UBID: 50600415  
 📧 vinaytrinadh9910@gmail.com  
-[GitHub](https://github.com/VinayTrinadh)  
-[LinkedIn](https://linkedin.com/in/VinayTrinadh)
+[GitHub](https://github.com/VinayTrinadh7755)  
+[LinkedIn](www.linkedin.com/in/vinay-trinadh-naraharisetty)
 
 Thank you for checking out our project!
